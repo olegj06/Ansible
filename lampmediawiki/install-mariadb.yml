@@ -1,0 +1,7 @@
+---
+
+- name: "Installation MariaDB"
+  hosts: oj-Database
+  gather_facts: true
+  roles:
+    - role: mariadb
